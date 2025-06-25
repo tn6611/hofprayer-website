@@ -1,133 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>House of Prayer SA Retreat</title>
-  <style>
-    :root {
-      --primary-color: #2c3e50;
-      --secondary-color: #34495e;
-      --light-bg: #ecf0f1;
-      --font-color: #333;
-      --accent-color: #1a252f;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f9fa;
-      color: var(--font-color);
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header img {
-      width: 80px;
-      height: auto;
-      margin-bottom: 1rem;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: var(--secondary-color);
-      padding: 0.75rem;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0.5rem 1rem;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      color: var(--primary-color);
-    }
-    .program, .form-container {
-      background-color: var(--light-bg);
-      padding: 1rem;
-      border-radius: 8px;
-      margin-top: 1rem;
-    }
-    .scripture {
-      font-style: italic;
-      color: var(--primary-color);
-      text-align: center;
-      margin: 2rem 0;
-    }
-    .workshop-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1rem;
-      padding: 0;
-      list-style: none;
-      margin: 1rem 0;
-    }
-    .workshop-list li {
-      background-color: #fff;
-      padding: 0.75rem;
-      border-left: 5px solid var(--primary-color);
-      border-radius: 6px;
-    }
-    .form-container form {
-      display: grid;
-      gap: 1rem;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 0.75rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 1rem;
-    }
-    button {
-      padding: 0.75rem 2rem;
-      background-color: var(--primary-color);
-      color: white;
-      border: none;
-      border-radius: 5px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    button:hover {
-      background-color: var(--accent-color);
-    }
-    #contact p {
-      background-color: var(--light-bg);
-      padding: 1rem;
-      border-radius: 8px;
-    }
-    footer {
-      background-color: var(--primary-color);
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    @media (max-width: 600px) {
-      nav {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <img src="logo-placeholder.png" alt="House of Prayer Logo" />
+    <img src="houseofprayer.png" alt="House of Prayer Logo" />
     <h1>House of Prayer SA Retreat</h1>
     <p>Transforming Lives Through Faith, Knowledge & Fellowship</p>
   </header>
@@ -143,7 +25,7 @@
     <h2>About Us</h2>
     <p>
       House of Prayer SA Retreat is a community outreach initiative designed to uplift and
-      empower rural youth through spiritual growth, education, music, and mental development.
+      empower rural youth through spiritual growth, education, technology, and mental development.
       Rooted in the Gospel of Jesus Christ, we bring Saturday workshops and Sunday fellowship
       to touch hearts and build futures.
     </p>
@@ -157,14 +39,14 @@
     <p>Join us every Saturday for spiritual and skill-building sessions.</p>
     <div class="program">
       <strong>09:00 – 09:10</strong>: Opening Prayer (All together)<br />
-      <strong>09:10 – 11:00</strong>: First Session (Keyboard / Chess / Tutoring)<br />
+      <strong>09:10 – 11:00</strong>: First Session (Computer Literacy / Chess / Tutoring)<br />
       <strong>11:00 – 11:15</strong>: Tea Break<br />
       <strong>11:15 – 12:45</strong>: Second Session<br />
       <strong>12:45 – 13:00</strong>: Closing Prayer
     </div>
     <h3>Available Workshops:</h3>
     <ul class="workshop-list">
-      <li>🎹 Keyboard Training</li>
+      <li>🖥️ Computer Literacy</li>
       <li>♟️ Chess Masterclass</li>
       <li>📘 Grade 9 Tutoring (Math, Accounting, or English)</li>
     </ul>
@@ -182,7 +64,7 @@
         <input type="number" id="age" name="age" />
 
         <label for="workshop">Workshop of Interest</label>
-        <input type="text" id="workshop" name="workshop" placeholder="e.g. Chess, Keyboard, Math" />
+        <input type="text" id="workshop" name="workshop" placeholder="e.g. Chess, Computer Literacy, Math" />
 
         <label for="message">Message (Optional)</label>
         <textarea id="message" name="message" rows="4"></textarea>
@@ -195,9 +77,9 @@
   <section id="contact">
     <h2>Contact Us</h2>
     <p>
-      📍 Location: [Village Name], South Africa<br />
-      ☎️ Phone/WhatsApp: [Your Number]<br />
-      📧 Email: [Your Email Address]<br />
+      📍 Location: Mmametlhake, South Africa<br />
+      ☎️ Phone/WhatsApp: +27835286688<br />
+      📧 Email: info@hofprayer.co.za<br />
       🌐 Facebook: @HouseOfPrayerSA
     </p>
   </section>
